@@ -8,7 +8,7 @@ export default function MainNavigation(){
     return(
       <div className="px-10 bg-white shadow-md sticky top-0 h-16 w-screen p-4 flex items-center justify-between">
         <div>
-            <p className="text-4xl">advotics</p>
+            <p className="text-4xl bg-clip-text text-transparent bg-gradient-to-r from-gray-400 to-black">advotics</p>
         </div>
         <div className="flex items-center">
             <div className="flex-col justify-center px-3">
