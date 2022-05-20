@@ -8,7 +8,7 @@ function App() {
   return (
     <Router>
         <MainNavigation/>
-        <div className="flex mt-10">
+        <div className="flex">
             <Sidebar/>
             <Routes>
                 <Route path="/" element={<Home/>}>
