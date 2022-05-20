@@ -1,1 +1,12 @@
-export default function Sales(){}
+import React from "react";
+
+
+export default function Sales(){
+  return(
+    <>
+      <div>
+
+      </div>
+    </>
+  );
+}
