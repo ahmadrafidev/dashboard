@@ -1,5 +1,8 @@
 import React from 'react';
 
+import { IoIosArrowUp } from "react-icons/io";
+import HelpIcon from '../../assets/Help.png';
+
 export default function MarketInsight(){
   return(
     <div className="px-14 w-[calc(100%)] mb-8">
@@ -8,8 +11,16 @@ export default function MarketInsight(){
           <div className="text-xl text-white font-semibold">
             <p>Market Insights</p>
           </div>
-          <div>
-            <p>Click Here to Help</p>
+          <div className="flex items-center">
+            <div>
+              <img src={HelpIcon} alt="Help Icon"/>
+            </div>
+            <div className="text-sm text-white font-light underline ml-1">
+              <p>Click Here to Help</p>
+            </div>
+            <div className="ml-3">
+              <IoIosArrowUp size={25} color={'#F5F5F5'}/>
+            </div>
           </div>
         </div>
       </div>
