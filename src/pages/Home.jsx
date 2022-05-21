@@ -10,7 +10,7 @@ import AverageChart from "../components/card/average-chart/AverageChart";
 
 export default function Home(){
     return(
-      <div className="bg-gray-100 px-4 w-[calc(100%-70px)]">
+      <div className="bg-gray-100 px-2 w-[calc(100%-70px)]">
         <Header />
         <MarketInsight/>
         <div className="px-14">

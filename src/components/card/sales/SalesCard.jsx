@@ -15,9 +15,9 @@ export default function Sales(){
         <div className="flex justify-between px-4 items-center">
           <div>
             <p className="font-bold text-2xl">Rp 3,600,000</p>
-            <p className="font-light text-xs text-gray-400 flex items-center">
-              <span><img src={DownArrow} alt="down arrow image" className="mr-1"/></span>
-              <span className="text-red-600 font-semibold">13.8%</span>
+            <p className="font-light text-xs text-gray-400 flex items-center py-1">
+              <span><img src={DownArrow} alt="down arrow image" className="mr-0.5"/></span>
+              <span className="text-red-600 font-semibold mr-0.5">13.8%</span>
               last period in product sold
             </p>
           </div>

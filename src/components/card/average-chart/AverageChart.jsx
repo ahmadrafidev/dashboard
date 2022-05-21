@@ -15,7 +15,7 @@ import {HiDotsVertical} from "react-icons/hi";
 export default function AverageChart(){
   return(
     <div className="mr-5 pt-4">
-      <div className="bg-white w-[calc(186px+384px)] h-96">
+      <div className="bg-white w-[calc(195px+384px)] h-96">
         <div className="flex justify-between px-8 py-5 items-center">
           <h2 className="text-gray-600 text-lg">AVERAGE PURCHASE VALUE</h2>
           <HiDotsVertical size={25} className="text-gray-600"/>
@@ -24,7 +24,7 @@ export default function AverageChart(){
           <ComposedChart
             width={550}
             height={330}
-            data={data}
+            data={dummyData}
             margin={{
               top: 20,
               right: 20,
@@ -46,7 +46,7 @@ export default function AverageChart(){
   );
 }
 
-const data = [
+const dummyData = [
   {
     name: "Mon",
     gross: 590,

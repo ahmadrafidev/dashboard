@@ -5,7 +5,7 @@ import CompetitorProduct from "../product/CompetitorProduct";
 
 export default function TopCompetitorSku() {
   return(
-    <div className="px-18 pt-4">
+    <div className="ml-16 pt-4">
       <div className="bg-white max-w-xs h-96 shadow-md">
         <div className="flex justify-between px-6 py-3 items-center">
           <h2 className="text-gray-600 text-lg"> TOP COMPETITOR SKU</h2>
@@ -13,19 +13,19 @@ export default function TopCompetitorSku() {
         </div>
         <div className="flex-col px-6">
           <ul className="">
-            <li className="mb-2">
+            <li className="mb-2.5">
               <CompetitorProduct/>
             </li>
-            <li className="mb-2">
+            <li className="mb-2.5">
               <CompetitorProduct/>
             </li>
-            <li className="mb-2">
+            <li className="mb-2.5">
               <CompetitorProduct/>
             </li>
-            <li className="mb-2">
+            <li className="mb-2.5">
               <CompetitorProduct/>
             </li>
-            <li className="mb-2">
+            <li className="mb-2.5">
               <CompetitorProduct/>
             </li>
           </ul>
