@@ -6,7 +6,7 @@ import { GrTextAlignFull } from "react-icons/gr";
 
 export default function Sidebar(){
     return(
-      <div className="flex sticky top-16 h-[calc(100vh-64px)]">
+      <div className="flex sticky top-16 h-[calc(100vh-64px)] outline outline-gray-300">
         <div className="bg-white shadow-md p-5">
           <div className="mt-2.5">
             <ul>
