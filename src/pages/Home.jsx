@@ -13,7 +13,9 @@ export default function Home(){
       <div className="bg-gray-100 px-4 w-[calc(100%-70px)]">
         <Header />
         <MarketInsight/>
-        <Sales />
+        <div className="px-14">
+          <Sales />
+        </div>
         <div className="flex px-14 mt-2">
           <AverageChart/>
           <BestSellingSku />
