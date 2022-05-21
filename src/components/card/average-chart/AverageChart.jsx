@@ -18,7 +18,11 @@ export default function AverageChart(){
       <div className="bg-white w-[calc(195px+384px)] h-96">
         <div className="flex justify-between px-8 py-5 items-center">
           <h2 className="text-gray-600 text-lg">AVERAGE PURCHASE VALUE</h2>
-          <HiDotsVertical size={25} className="text-gray-600"/>
+          <div className="flex">
+            <p>tempat buat filter</p>
+            <HiDotsVertical size={24} className="text-gray-600"/>
+          </div>
+
         </div>
         <div>
           <ComposedChart
