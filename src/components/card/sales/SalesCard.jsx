@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Sales(){
   return(
-    <div className="px-14 ">
+    <div className="px-14">
       <div className="w-72 h-32 bg-white shadow-md">
         <div className="p-2">
           <div className="flex-row items-center justify-between">
