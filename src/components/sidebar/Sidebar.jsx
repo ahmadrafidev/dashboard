@@ -10,7 +10,7 @@ export default function Sidebar(){
         <div className="bg-white shadow-md p-5">
           <div className="mt-2.5">
             <ul>
-              <li className="mb-2">
+              <li className="mb-4">
                 <GrTextAlignFull size={30} color={"#C5C5C5"}/>
               </li>
               <Link to="/" className="link">

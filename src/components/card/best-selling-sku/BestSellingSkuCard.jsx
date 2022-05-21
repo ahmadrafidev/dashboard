@@ -5,7 +5,7 @@ import ProductItemCard from "../product/ProductItemCard";
 
 export default function BestSellingSku() {
   return(
-    <div className="px-14 pt-4">
+    <div className="pt-4 mr-6">
       <div className="bg-white max-w-xs h-96 shadow-md">
         <div className="flex justify-between px-6 py-3 items-center">
           <h2 className="text-gray-600 text-lg">BEST SELLING SKU</h2>
