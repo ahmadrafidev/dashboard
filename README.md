@@ -20,4 +20,11 @@ Install NodeJS
 
 ## Project Structure
 
-soon
+- src: root folder for keeping all the files
+  - components
+      - assets : folder for keep images
+      - card: card react components, include header, product item, best selling, etc
+      - layout: web component for main navigation on topbar
+      - sidebar: web component for sidebar in dashboard
+  - pages
+      - Home: Initial pages in this project web
